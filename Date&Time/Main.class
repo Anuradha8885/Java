@@ -1,0 +1,11 @@
+import java.time.LocalDateTime;
+
+public class main {
+   public main() {
+   }
+
+   public static void main(String[] var0) {
+      LocalDateTime var1 = LocalDateTime.now();
+      System.out.println(var1);
+   }
+}
