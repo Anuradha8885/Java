@@ -1,0 +1,10 @@
+class Main {
+   Main() {
+   }
+
+   public static void main(String[] var0) {
+      Dog var1 = new Dog();
+      var1.sleep();
+      var1.sound();
+   }
+}
