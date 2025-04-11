@@ -1,0 +1,17 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class Main {
+   public Main() {
+   }
+
+   static void checkAge(int var0) {
+      if (var0 < 18) {
+         throw new ArithmeticException("Access denied - you must be at least 18 years old.");
+      } else {
+         System.out.println("Access granted - you are old enough!");
+      }
+   }
+
+   public static void main(String[] var0) {
+      checkAge(12);
+   }
+}
