@@ -1,0 +1,19 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class Solve {
+   public Solve() {
+   }
+
+   void add(String var1) {
+      System.out.println("string :" + var1);
+   }
+
+   void add(int var1) {
+      System.out.println("int :" + var1);
+   }
+
+   public static void main(String[] var0) {
+      Solve var1 = new Solve();
+      var1.add("Anu");
+      var1.add(21);
+   }
+}
