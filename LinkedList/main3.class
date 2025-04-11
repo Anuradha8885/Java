@@ -1,0 +1,22 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.util.LinkedList;
+
+public class main3 {
+   public main3() {
+   }
+
+   public static void main(String[] var0) {
+      LinkedList var1 = new LinkedList();
+      var1.add(10);
+      var1.add(20);
+      var1.add(30);
+      var1.add(40);
+      var1.addLast(50);
+      var1.addFirst(60);
+      var1.removeFirst();
+      var1.removeLast();
+      System.out.println(var1);
+      System.out.println(var1.getFirst());
+      System.out.println(var1.getLast());
+   }
+}
