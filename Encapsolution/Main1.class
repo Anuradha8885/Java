@@ -1,0 +1,10 @@
+public class Main1 {
+   public Main1() {
+   }
+
+   public static void main(String[] var0) {
+      Person var1 = new Person();
+      var1.setName("John");
+      System.out.println(var1.getName());
+   }
+}
