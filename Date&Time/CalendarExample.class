@@ -1,0 +1,13 @@
+import java.util.Calendar;
+
+public class CalendarExample {
+   public CalendarExample() {
+   }
+
+   public static void main(String[] var0) {
+      Calendar var1 = Calendar.getInstance();
+      System.out.println("Current Date" + String.valueOf(var1.getTime()));
+      var1.add(5, 5);
+      System.out.println("Update Date:" + String.valueOf(var1.getTime()));
+   }
+}
